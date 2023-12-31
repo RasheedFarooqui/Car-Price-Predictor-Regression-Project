@@ -68,7 +68,7 @@ def add_bg_from_local(image_file):
     )
 
 
-add_bg_from_local('addbg.jpg')
+add_bg_from_local('bdimage.avif')
 
 
 
