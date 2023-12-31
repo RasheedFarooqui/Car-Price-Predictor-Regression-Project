@@ -5,7 +5,7 @@ import pickle
 
 
 
-df = pickle.load(open('cardf.pkl','rb'))
+df = pickle.load(open('df.pkl','rb'))
 SVR = pickle.load(open('SVR.pkl','rb'))
 print('no errors')
 
