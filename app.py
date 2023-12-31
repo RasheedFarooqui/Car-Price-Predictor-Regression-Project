@@ -6,7 +6,7 @@ import pickle
 
 
 df = pickle.load(open('df.pkl','rb'))
-SVR = pickle.load(open('SVR.pkl','rb'))
+gradient = pickle.load(open('gradient.pkl','rb'))
 print('no errors')
 
 #################
@@ -47,7 +47,7 @@ if st.button('Predict'):
     query = np.array([name,year,miles,brand,exterior,interior,accidents,owners])
 
     query = query.reshape(1,8)
-    st.markdown(""" # _Predicted Price For The Given Details:_ """+"US$ "+str(int(np.exp(SVR.predict(query)))) + ".")
+    st.markdown(""" # _Predicted Price For The Given Details:_ """+"US$ "+str(int(np.exp(gradient.predict(query)))) + ".")
 
 
 ###################BACKGROUND
