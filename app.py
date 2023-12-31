@@ -75,16 +75,6 @@ add_bg_from_local('bgimage.avif')
 
 
 
-# def main():
-#     background_image_url = "https://images.unsplash.com/photo-1607082615064-eb85a8c1f4cd?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    
-#     set_background_image(background_image_url)
-
-
-
-
-
-
 
 
 
