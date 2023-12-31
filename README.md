@@ -18,16 +18,15 @@
 ## Project Information:
 * I divided the project into  six parts:
 
-
+  - Web Scraping
+  - Data Cleaning
+  - Exploratory Data Analysis
+  - Regression Model Building (Data Preprocessing and Model Selection)
+  - Visualizing Results
+  - Model's Web App development
   
 > First: Web Scraping
-
-
  * Where I web scraped the data using BeautifulSoup library on jupyter notebook.
-
-
-
-
 
 > Second : Data Cleaning
 
@@ -42,9 +41,6 @@
      removed characters and alphabets from numeric columns,
      created exterior and interior color columns out of 'color' column,
      created accidents and past_owners  columns out of 'condition' column).
-
-
-
 
 
 > Third: Exploratory Data Analysis
@@ -72,10 +68,6 @@
   Average price of cars by No of accidents and past owners they've had.
 
 
-
-
-
-
 > Fourth : ML Regression model building
 
 * Data preprocessing using scikit-learns Simple-imputer, OneHotEncoder, Standard Scaler and spliting the Data using train_test_split (Taking Price as the Target Variable)
@@ -84,10 +76,6 @@
 and Also XGBoost.
 
 * Used Pipeline to column Transform and predict the features.
-
-
-
-
 
 
 > Fifth : Visualising Results
@@ -121,9 +109,6 @@ and Also XGBoost.
    Random Forest : 0.15
 
    GradientBoost : 0.126
-
-
-
 
 
 > Sixth: Model Web App develpment:
